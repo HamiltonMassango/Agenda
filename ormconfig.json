@@ -4,5 +4,11 @@
     "port": 3306,
     "username": "root",
     "password": "",
-    "database": "e-com"
+    "database": "e-com",
+    "migrations": [
+        "./src/database/migrations/*.ts"
+    ],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
 }
