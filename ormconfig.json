@@ -5,8 +5,11 @@
     "username": "root",
     "password": "",
     "database": "e-com",
-    "migrations": [
+    "entities":[
         "./src/database/migrations/*.ts"
+    ],
+    "migrations": [
+        "./src/models/*.ts"
     ],
     "cli": {
         "migrationsDir": "./src/database/migrations"
